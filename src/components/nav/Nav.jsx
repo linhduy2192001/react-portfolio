@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import {
+  AiOutlineHome,
+  AiOutlineUser,
+  AiOutlineFolderOpen,
+} from "react-icons/ai";
 import { BiBook, BiMessageAltDetail } from "react-icons/bi";
 import "./nav.css";
 export default function Nav() {
@@ -27,6 +31,13 @@ export default function Nav() {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <AiOutlineFolderOpen />
       </a>
       <a
         href="#contact"
