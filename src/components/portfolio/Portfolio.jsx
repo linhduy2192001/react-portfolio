@@ -1,7 +1,7 @@
 import React from "react";
 import portfolio1 from "../../assets/portfolio1.png";
 import portfolio2 from "../../assets/portfolio2.png";
-import portfolio3 from "../../assets/portfolio3.jpg";
+import portfolio3 from "../../assets/portfolio3.png";
 import portfolio4 from "../../assets/portfolio4.png";
 
 import "./portfolio.css";
@@ -24,10 +24,10 @@ export default function Portfolio() {
     },
     {
       id: 3,
-      image: portfolio1,
+      image: portfolio3,
       title: "CFD-Course",
       github: "https://github.com/linhduy2192001/CFD-Course",
-      demo: "https://cfd-course-app.vercel.app/",
+      demo: "https://cfd-course-gamma.vercel.app/",
     },
     {
       id: 4,
