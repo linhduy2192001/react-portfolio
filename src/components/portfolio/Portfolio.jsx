@@ -34,7 +34,7 @@ export default function Portfolio() {
       image: portfolio4,
       title: "Shopper",
       github: "https://github.com/linhduy2192001/react-furniture-ecommerce",
-      demo: "https://cfd-course-app.vercel.app/",
+      demo: "https://react-furniture-ecommerce-lovat.vercel.app/",
     },
   ];
   return (
