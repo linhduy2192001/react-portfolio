@@ -4,7 +4,7 @@ import { BsFacebook, BsGithub, BsLinkedin } from "react-icons/bs";
 export default function HeaderSocials() {
   return (
     <div className="header__socials">
-      <a href="" target="_blank">
+      <a href="https://www.linkedin.com/in/duy-phan-0704a5255/" target="_blank">
         <BsLinkedin />
       </a>
       <a

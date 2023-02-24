@@ -1,10 +1,9 @@
 import React from "react";
 import portfolio1 from "../../assets/portfolio1.png";
-import portfolio2 from "../../assets/portfolio2.jpg";
+import portfolio2 from "../../assets/portfolio2.png";
 import portfolio3 from "../../assets/portfolio3.jpg";
-import portfolio4 from "../../assets/portfolio4.jpg";
-import portfolio5 from "../../assets/portfolio5.png";
-import portfolio6 from "../../assets/portfolio6.jpg";
+import portfolio4 from "../../assets/portfolio4.png";
+
 import "./portfolio.css";
 
 export default function Portfolio() {
@@ -18,35 +17,28 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      image: portfolio1,
-      title: "Sunset Sorrento",
-      github: "https://github.com/linhduy2192001/sunset",
-      demo: "https://linhduy2192001.github.io/sunset/",
+      image: portfolio2,
+      title: "Wooder",
+      github: "   https://github.com/linhduy2192001/wooder ",
+      demo: "https://linhduy2192001.github.io/wooder/",
     },
     {
       id: 3,
       image: portfolio1,
-      title: "Sunset Sorrento",
-      github: "https://github.com/linhduy2192001/sunset",
-      demo: "https://linhduy2192001.github.io/sunset/",
+      title: "CFD-Course",
+      github: "https://github.com/linhduy2192001/CFD-Course",
+      demo: "https://cfd-course-app.vercel.app/",
     },
     {
       id: 4,
-      image: portfolio1,
-      title: "Sunset Sorrento",
-      github: "https://github.com/linhduy2192001/sunset",
-      demo: "https://linhduy2192001.github.io/sunset/",
-    },
-    {
-      id: 5,
-      image: portfolio1,
-      title: "Sunset Sorrento",
-      github: "https://github.com/linhduy2192001/sunset",
-      demo: "https://linhduy2192001.github.io/sunset/",
+      image: portfolio4,
+      title: "Shopper",
+      github: "https://github.com/linhduy2192001/react-furniture-ecommerce",
+      demo: "https://cfd-course-app.vercel.app/",
     },
   ];
   return (
-    <section id="portfolio">
+    <section className="page-section" id="portfolio">
       <h5>Portfolio</h5>
       <h2>My Project</h2>
 

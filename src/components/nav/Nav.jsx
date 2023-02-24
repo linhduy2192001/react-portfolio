@@ -5,6 +5,7 @@ import {
   AiOutlineFolderOpen,
 } from "react-icons/ai";
 import { BiBook, BiMessageAltDetail } from "react-icons/bi";
+import { Link } from "react-router-dom";
 import "./nav.css";
 export default function Nav() {
   const [activeNav, setActiveNav] = useState("#");

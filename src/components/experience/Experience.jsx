@@ -3,7 +3,7 @@ import { BsFillPatchCheckFill } from "react-icons/bs";
 import "./experience.css";
 export default function Experience() {
   return (
-    <section id="experience">
+    <section className="page-section" id="experience">
       <h5>What Skills I Have</h5>
       <h2>My Experience</h2>
 
