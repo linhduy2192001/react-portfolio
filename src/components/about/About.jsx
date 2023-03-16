@@ -36,10 +36,13 @@ export default function About() {
           </div>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-            laborum cupiditate quas, voluptate perferendis optio placeat. A,
-            accusantium ratione cum animi autem pariatur nisi fuga. Aliquam
-            commodi enim eum dignissimos?
+            I am Duy. I am currently a senior student at Ton Duc Thang
+            University. With the knowledge and specialized skills that I have
+            accumulated during my studies at the university and CFD Circle, I
+            believe that I am suitable for the position of a Front-end intern.
+            In the future, I hope to become a Front-end developer, and the
+            opportunity to work at your esteemed company will help me enhance my
+            abilities.
           </p>
 
           <a href="#contact " className="btn btn-primary">
